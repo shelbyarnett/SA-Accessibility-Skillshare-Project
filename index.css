@@ -104,6 +104,10 @@ header.navigation {
 	display: flex;
 }
 
+header.navigation .wrap {
+	max-width: initial;
+}
+
 header .header-logo {
 	max-width: 300px;
 	height: auto;
