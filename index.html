@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="index.css" rel="stylesheet" type="text/css">
+	<meta name="description" content="This is a Bing Crosby Info Page summarizing the life and career of actor and singer Bing Crosby.">
+	<meta name="keywords" content="Bing Crosby, Film, Musical">
+	<meta name="author" content="Shelby Arnett">
+	<link rel="icon" type="image/svg" href="../../Skillshare/Web Accessibility Course - David Sealey/Assets/Bing Crosby Logo_Favicon.svg">
+	<title>Bing Crosby Info Page</title>
+</head>
+
+<body>
+	<header class="navigation">
+		<div class="wrap">
+			<img src="Assets/Bing Crosby Logo_White.svg" alt="Bing Crosby" class="header-logo" width="300" height="68">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Biography</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Articles</a></li>
+			</ul>
+		</nav>	
+	</header>
+	<main>
+		<section class="intro">
+			<div class="wrap wrap-column wrap-center">
+				<header>
+					<h1>Welcome to the Bing Crosby Info Page</h1>
+				</header>
+				<img src="Assets/Bing-Crosby-Silo.png" alt="A black and white cutout portrait of Bing Crosby" class="intro-image" width="400" height="460">
+				<p class="intro-text">As the most successful recording artist of all time; an abiding star of movies, radio, and television; and a firm believer in the wonders of technology, Bing Crosby helped to transform and define the cultural life not only of the United States, but of the world.</p>
+			</div>
+		</section>
+		<section class="find-out-more">
+			<div class="wrap">
+				<h2>Find Out More</h2>
+				<p>To read more about Bing Crosby and his career, please check out his personal website.</p>
+				<a href="https://bingcrosby.com/"
+				   class="button"
+				   target="_blank"
+				   aria-label="View Bing Crosby's bio and career on bingcrosby.com">
+				   Visit BingCrosby.com <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><path d="m0,6.86C0,4.33,2.05,2.29,4.57,2.29h6.86c1.26,0,2.29,1.02,2.29,2.29s-1.02,2.29-2.29,2.29h-6.86v20.57h20.57v-6.86c0-1.26,1.02-2.29,2.29-2.29s2.29,1.02,2.29,2.29v6.86c0,2.52-2.05,4.57-4.57,4.57H4.57c-2.52,0-4.57-2.05-4.57-4.57V6.86ZM18.29,2.29c0-1.26,1.02-2.29,2.29-2.29h9.08c.37,0,.67.06.94.17.21.11.52.27.74.49,0,0,0,0,0,.01.44.44.6,1.02.66,1.6h0v9.15c0,1.26-1.02,2.29-2.29,2.29s-2.29-1.02-2.29-2.29v-3.62l-12.1,12.09c-.89.89-2.33.89-3.23,0s-.89-2.33,0-3.23l12.09-12.1h-3.62c-1.26,0-2.29-1.02-2.29-2.29Z"/></svg>
+				</a>
+			</div>
+		</section>
+		<section class="contact-me">
+			<div class="wrap wrap-column">
+				<h3>Contact Me</h3>
+				<p>If you'd like to chat with me directly about this site or Bing Crosby, please fill out the form below.</p>
+				<form action="">
+					<p>All fields marked with * are required</p>
+					<div class="form-group">
+						<label for="firstname">First name *</label>
+						<input type="text" name="" id="firstname" placeholder="Enter first name" required>
+						<label for="lastname">Last name</label>
+						<input type="text" name="" id="lastname" placeholder="Enter last name">
+						<label for="email">Email *</label>
+						<input type="text" name="" id="email" placeholder="name@emailaddress.com" required>
+					</div>
+					<div class="form-group">
+						<fieldset>
+							<legend>What would you like to discuss?</legend>
+							<div>
+								<input type="checkbox" name="question" id="career">
+								<label for="career">Bing's Career</label>
+							</div>
+							<div>
+								<input type="checkbox" name="question" id="life">
+								<label for="life">Bing's Personal Life</label>
+							</div>
+							<div>
+								<input type="checkbox" name="question" id="other">
+								<label for="other">Other</label>
+							</div>
+						</fieldset>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea name="" id="message" rows="8" placeholder="Add your message"></textarea>
+					</div>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="wrap">
+			<small>&copy; Copyright Shelby Arnett 2023</small>
+		</div>
+	</footer>
+</body>
+</html>
